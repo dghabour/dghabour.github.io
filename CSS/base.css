@@ -1,6 +1,7 @@
 *{
-    box-sizing: border-box; 
-    h1 {
+    box-sizing: border-box;
+}
+h1 {
  color: #ff4a00;
 }
 h2 {
