@@ -45,7 +45,10 @@ header a: active {
     text-decoration:underline;
 }
 header a: focus {}
-
+article {
+    clear: both; 
+    padding: 0px 10px 0px 10px 
+}
 article h1 {
 font-size: 36px;
 line-height: 44px;
@@ -60,11 +63,6 @@ margin-bottom: 4px
 }
 header a:hover { 
     color: #ffffff;
-}
-
-article {
-    clear: both; 
-    padding: 0px 10px 0px 10px 
 }
 
 aside {
