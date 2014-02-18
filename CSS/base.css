@@ -66,6 +66,16 @@ article {
     clear: both; 
     padding: 0px 10px 0px 10px 
 }
+
+aside {
+    background-color: #000; 
+   float: right;
+    margin: 0 0 10px 5% 
+    width: 47.5%; 
+       
+}
 footer {
+    clear: right;
+    font-size: 12px;
     padding: 0px 10px 0px 10px 
 }
