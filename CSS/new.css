@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #dd7722;
-    color: #7733; 
+    color: #554422; 
     height: 100px;
     margin: auto;
 
@@ -25,7 +25,6 @@ header h1 {
 }
 
     header nav { 
-    float: center;
     margin-top:10px;
     padding: 5px 5px 5px 5px; 
     background: #eeaa33;
@@ -41,6 +40,5 @@ article {
 }
 
 footer{
-    float: clear;
     margin: 10px;
 }
