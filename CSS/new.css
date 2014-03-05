@@ -10,20 +10,37 @@ body {
 }
 
 header {
-    background-color: #44bbcc;
-    color: #ffffff; 
-    height: 40px
+    background-color: #dd7722;
+    color: #7733; 
+    height: 100px;
+    margin: auto;
+
 }
 
 header h1 {
-    float: left;
-    font-family: helvetica, arial, sans-serif; 
-    font-size: 25px;
+    font-family: helvetica, sans-serif; 
+    font-size: 50px;
     font-weight: 500;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 30px 10px 0px 30px;
 }
-header nav { 
-    float: left;
-    margin-top: 10px; 
+
+    header nav { 
+    float: center;
+    margin-top:10px;
+    padding: 5px 5px 5px 5px; 
+    background: #eeaa33;
+    width: auto; 
+    align-items:center;
+}
+
+article {
+    font-family: helvetica, arial, sans-serif; 
+    font-size: 16px;
+    padding: 80px
+    
+}
+
+footer{
+    float: clear;
+    margin: 10px;
 }
