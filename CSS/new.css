@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0; 
+}
+body {
+    font-family: georgia, serif;
+    font-size: 16px;
+    line-height: 24px;
+    )
+
+p { 
+    margin-bottom: 1em; 
+}
+
+header {
+    background-color: #44bbcc;
+    color: #ffffff; 
+    height: 40px
+}
+
+header h1 {
+    float: left;
+    font-family: helvetica, arial, sans-serif; 
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+header nav { 
+    float: left;
+    margin-top: 10px; 
+}
