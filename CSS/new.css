@@ -19,7 +19,7 @@ header {
 
 header h1 {
     font-family: helvetica, sans-serif; 
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     padding: 30px 10px 0px 30px;
     text-align: center;
@@ -45,13 +45,44 @@ a {
 article {
     font-family: helvetica, arial, sans-serif; 
     font-size: 16px;
-    padding: 80px   
+    margin-top:20px;
+    padding:30px;
 }
 .fancy {
     font-family: cursive; 
     color: #0000CD;
-
 }
 footer{
     margin: 10px;
+}
+
+
+.images {
+    text-align:center;
+}
+.images img {
+    width:100px;
+    height:100px;
+}
+.images div {
+    width:100px;
+    text-align:center;
+}
+.images div span {
+    display:block;
+}
+.margin_right {
+    margin-right:50px;
+}
+.float {
+    float:right;
+}
+.clear {
+    clear:both;
+    height:0;
+    width:0;
+}
+
+.clips td {
+    border:1px solid black;  
 }
