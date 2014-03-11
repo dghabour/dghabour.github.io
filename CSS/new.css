@@ -4,7 +4,6 @@
     padding:0; 
 }
 
-
 /* this is the body yes */
 
 #wrapper {
@@ -12,7 +11,7 @@
     position: relative;
 }
 body {
-    font-family: georgia, serif;
+    font-family: Constantia, serif;
     font-size: 16px;
     line-height: 24px;
     height: 100%;
@@ -30,8 +29,8 @@ header {
 /* header h1 is the title in the bar at the top */
 
 header h1 {
-    font-family: helvetica, sans-serif; 
-    font-size: 40px;
+    font-family: Constantia, serif; 
+    font-size: 50px;
     font-weight: 500;
     padding: 30px 10px 0px 30px;
     text-align: center;
@@ -59,18 +58,21 @@ nav a {
     color: #000000;}
 
 article {
-    font-family: helvetica, arial, sans-serif; 
+    font-family: Constantia, serif; 
     font-size: 16px;
-    padding: 40px;   
+    padding: 20px;   
     padding-bottom: 120px; 
     line-height:1.5;
+}
+h1 {
+    text-align: center;
 }
 p {
     margin: auto;
     padding: 6px; 
 }
 footer{
-    height: 50px;
+    height: 32px;
     position: absolute; 
     background:#99ddee;
     color: #000000; 
@@ -86,7 +88,7 @@ footer{
     margin-top:40px;
     background-color:transparent;
     width:750px;
-    font-family: georgia, serif;
+    font-family: Constantia, serif;
     font-size: 12px;
     line-height:14px;
     border: 1px solid #000000;
@@ -98,7 +100,7 @@ footer{
     margin-top:40px;
     background-color:transparent;
     width:200px;
-    font-family: georgia, serif;
+    font-family: Constantia, serif;
     font-size: 12px;
     line-height:14px;
     border: 1px solid #000000;
@@ -110,13 +112,11 @@ footer{
     margin-top:40px;
     background-color:transparent;
     width:200px;
-    font-family: georgia, serif;
+    font-family: Constantia, serif;
     font-size: 12px;
     line-height:14px;
     border: 1px solid #000000;
 }
-
-
 /* THESE classes are like subclasses??? i guess idk. but anyway they're the classes within the .clips classes you just did ^^^ and they refer to the captions for your logos. */
 
 .clips caption {
@@ -133,8 +133,6 @@ footer{
     text-align:center;
     width: 200px
 }
-
-.index img {
-    float: right;
-    border: 1px solid black; 
+.icons {
+    text-align:center;
 }
