@@ -3,60 +3,83 @@
     margin:0;
     padding:0; 
 }
+
+
+/* this is the body yes */
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
 body {
     font-family: georgia, serif;
     font-size: 16px;
     line-height: 24px;
+    height: 100%;
 }
 
+
+/* header is the bar at the top hell yeah */
+
 header {
-    background-color: #70138f;
+    background-color: #77aacc;
     color: #000000; 
     height: 100px;
     margin: auto;
     border: 2px solid black;
 }
+/* header h1 is the title in the bar at the top */
 
 header h1 {
     font-family: helvetica, sans-serif; 
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     padding: 30px 10px 0px 30px;
     text-align: center;
 }
 
+
+/* header a:hover means the links in the nav will change colors when you hover over them */
+
 header a:hover { 
     color: #ffffff;
 }
 
-    header nav { 
+    /* header nav is the links in the bar at the top */
+  header nav { 
     margin-top:10px;
     padding: 5px 5px 5px 5px; 
-    background: #c8a3d6;
+    background: #99ddee;
     width: auto; 
     height: 32px;
     text-align:center;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: #000000;}
 
 article {
     font-family: helvetica, arial, sans-serif; 
     font-size: 16px;
-    margin-top:20px;
-    padding:30px;
+    padding: 40px;   
+    padding-bottom: 120px; 
+    line-height:1.5;
 }
-.fancy {
-    font-family: cursive; 
-    color: #0000CD;
-}
+
 footer{
     margin: 10px;
+    height: 50px;
+    position: absolute; 
+    background:#99ddee;
+    color: #000000; 
+    border: 2px solid black;
+}
+    
+   
 }
 
-
+/* Mulan thingie here */ 
 .images {
     text-align:center;
 }
@@ -83,6 +106,69 @@ footer{
     width:0;
 }
 
-.clips td {
-    border:1px solid black;  
+
+
+/* OKAY HERE'S YOUR CSS FOR YOUR TABLES KEEP TRACK OF THESE */
+
+    /* OKAY SO here's the diddly dang deal. for these classes (.clips1, .clips2, .clips3), you need to include each element that you used to set up your tables (table, th, tr, td). honestly, just mess around until you figure out what each thing does. */
+
+
+.clips1 table, th, tr, td {
+    text-align:center;
+    margin:auto;
+    margin-top:50px;
+    background-color:transparent;
+    width:750px;
+    font-family: georgia, serif;
+    font-size: 12px;
+    line-height:14px;
+    border: 1px solid #000000;
+}
+
+.clips2 table, th, tr, td {
+    text-align:center;
+    margin:auto;
+    margin-top:50px;
+    background-color:transparent;
+    width:200px;
+    font-family: georgia, serif;
+    font-size: 12px;
+    line-height:14px;
+    border: 1px solid #000000;
+}
+
+.clips3 table, th, tr, td {
+    text-align:center;
+    margin:auto;
+    margin-top:50px;
+    background-color:transparent;
+    width:200px;
+    font-family: georgia, serif;
+    font-size: 12px;
+    line-height:14px;
+    border: 1px solid #000000;
+}
+
+
+
+/* THESE classes are like subclasses??? i guess idk. but anyway they're the classes within the .clips classes you just did ^^^ and they refer to the captions for your logos. */
+
+.clips caption {
+    text-align:center;
+    width: 200px
+}
+
+.clips2 .caption {
+    text-align:center;
+    width: 200px
+}
+
+.clips3 .caption {
+    text-align:center;
+    width: 200px
+}
+
+.index img {
+    float: right;
+    border: 1px solid black; 
 }

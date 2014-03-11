@@ -4,61 +4,115 @@
         <title>Dahlia Ghabour</title>
         <meta http-equiv="content-type"
     content="text/html; charset=UTF-8" />
+        
         <link rel="stylesheet" href="CSS/new.css" />
     </head> 
     
     <body>
-    <header> 
-        <h1> Dahlia Ghabour </h1>
-      <div>
-          <nav>
+         
+        <header>
+            <h1>Dahlia Ghabour</h1>
+        <div><nav>
             <a href="index.html">Home</a>
             <a href="about-me.html">About</a>
             <a href="clips.html">Clips</a>
              <a href="hobbies.html">Hobbies</a>
-             <a href="contact.html">Contact</a>
         </nav>
-     </div>
-    </header>
-
-    <article>
-        <div class="clips">
-            <h1>Clips </h1>  
-            
-            <table>
-                <thead> 
-	<th colspan="3"> The Osprey Observer </th> 
-        </thead>
-	    <tr>
-	    <td> <a href="http://bit.ly/P5ZP5j"> <img src="img/ospreyobserverlogo.jpg" alt="Osprey Observer" > 
-            </a> </td>    
-	    <td><a href="http://bit.ly/1qcPAKp"> <img src="img/ospreyobserverlogo.jpg" alt="Osprey Observer" > </a></td>    
-	    <td><a href="www.google.com"> <img src="img/ospreyobserverlogo.jpg"  alt="Osprey Observer" > </a> </td>
-	    </tr>
-	</table>
-     
-    <table>
-    <thead> 
-	<th colspan="1"> WUFT.org </th> 
-    </thead>
-	    <tr>
-	    <td> <a href="http://bit.ly/1n02HzE"> <img src="img/wuftdotorg.jpg" alt="WUFT"> </a> </td>     
-        </tr>
-	</table>
-    
-    <table>    
-     <thead> 
-	<th colspan="3"> The Independent Florida Alligator </th> 
-    </thead>
-	    <tr>
-	    <td> <a href="http://bit.ly/1hQIp71"> <img src="img/wuftdotorg.jpg" alt="Alligator"> </a> </td>     
-        </tr>
-	</table>
         </div>
-     </article>
+          </header>
 
-    <footer>
-        <p id="copyright">&copy; 2014 Dahlia Ghabour</p>
-        </footer>
-</body>
-    </html>
+        
+        <!-- TABLE STUFF HELL YEAH MOTHERFUCKER -->
+            <!-- so this is important, start with div class="clips" cause that's what your file is called so that's easy. you'll use this to edit the class/table/whatever you know what i mean in css later. then start your <table> -->
+
+        <div class="clips1">
+	    <table>
+            
+    <!-- okay so you got your table head tag, then your table head column span tag (remember to set the number to however many columns you have in that specific table), and your table title hell yeah -->
+            
+	        <thead>
+	            <th colspan="3">
+	              The Osprey Observer
+	            </th>
+	        </thead>
+	        
+    <!-- alrighty so here is your table body tag, table row tag, and table cell tag. in your tables you're attaching links to articles you wrote to the logos from the websites they were published on. here's how we accomplish this: first things first, you need your link tag (a href) with the link to the article. then your image (img src). THEN. THEEEENNNNN. you need a class for the caption okay don't forget this and then don't forget the css for this. we'll get there. so it's div class="caption" for the first link/caption, and from then on you need caption2, caption3, etc. also don't forget to type your captions between <p> and </p>. then close the div, a, and td. after this you can either add more linked logos or end the table with </tr></tbody></table> and then don't forget to end the class with </div> -->
+            
+	        <tbody>
+	            <tr>
+	                <td>
+                       <a href="http://www.ospreyobserver.com/2012/06/retired-army-colonel-publishes-book-a-humorous-memoir-life-story/">
+                        <img src="http://bit.ly/MRWK75" width="50%" height="60%"/>
+                        <div class="caption"><p>Retired Army Colonel Publishes Book, A Humorous Memoir & Life Story</p></div>
+                        </a>
+                        
+	                </td>
+                    <td>
+                        <a href="http://www.ospreyobserver.com/2012/06/local-eighth-grade-student-starts-clean-water-project-for-developing-african-countries/">
+                        <img src="http://bit.ly/MRWK75" width="50%" height="60%"/>
+                        <div class="caption2"><p>Local Eighth Grade Student Starts Clean Water Project For Developing African Countries</p></div>
+                        </a>
+	                </td>
+                    <td>
+                        <a href="http://www.ospreyobserver.com/2012/06/local-eighth-grade-student-starts-clean-water-project-for-developing-african-countries/">
+                        <img src="http://bit.ly/MRWK75" width="50%" height="60%"/>
+                        <div class="caption3"><p>Another title will go here eventually I suppose??? Better make it a long one hella</p></div>
+                        </a>
+	                </td>
+	            </tr>
+	        </tbody>
+	    </table>
+        </div>
+        
+        
+    <!-- congrATS YOU JUST FINISHED YOUR FIRST TABLE WOW AMAZING -->
+        
+        
+        <div class="clips2">
+	    <table>
+	        <thead>
+	            <th colspan="1">
+	              The Alligator
+	            </th>
+	        </thead>
+	        
+	        <tbody>
+	            <tr>
+                    <td>
+                        <a href="http://www.alligator.org/news/campus/article_fc580a2c-1e8f-11e3-8f4c-0019bb2963f4.html">
+                        <img src="http://bit.ly/1cG9sNf" width="70%" height="75%"/>
+                            <div class="caption"><p>UF Begins New Mental Health Campaign to Help with Student Stress</p></div>
+                        </a>
+	                </td>
+	            </tr>
+	        </tbody>
+	    </table>
+        </div>
+        
+            <!-- END OF SECOND TABLE WOOOOO -->
+        
+        <div class="clips3">
+	    <table>
+	        <thead>
+	            <th colspan="1">
+	              WUFT.org
+	            </th>
+	        </thead>
+	        
+	        <tbody>
+	            <tr>
+	                 <td>
+                        <a href="http://www.wuft.org/news/2013/10/08/abused-lgbt-partners-now-have-an-alachua-county-support-group/">
+                        <img src="http://bit.ly/1cz3146" width="70%" height="75%"/>
+                            <div class="caption"><p>Abused LGBT Partners Now Have An Alachua County Support Group</p></div>
+                        </a>
+	                </td>
+	            </tr>
+	        </tbody>
+	    </table>
+        </div>
+        
+            <!-- THIRD TABLE DONE ALRIGHT ALRIGHT ALRIGHT -->
+        
+	</body>
+</html>
