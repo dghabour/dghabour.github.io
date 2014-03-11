@@ -78,6 +78,7 @@ footer{
     color: #000000; 
     border: 2px solid black;
     width: 100%;
+
 }
 
 /* OKAY HERE'S YOUR CSS FOR YOUR TABLES KEEP TRACK OF THESE */
@@ -136,3 +137,26 @@ footer{
 .icons {
     text-align:center;
 }
+
+/* contact page below */ 
+.clearer {
+    clear: both;
+}
+.contact {
+    text-align: center;
+    text-decoration: none;
+}
+.contact a {
+    color: #000000;} 
+.contact a:hover {
+    color: #77aacc;
+}
+
+
+/*HOBBIES PAGE */
+
+.costumes img.odd {
+    float: right; 
+    margin: 2px 0 0 10px;
+}
+
