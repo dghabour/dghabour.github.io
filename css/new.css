@@ -109,7 +109,7 @@ footer{
     line-height:14px;
     border: 1px solid #000000;
 }
-/* THESE classes are like subclasses??? i guess idk. but anyway they're the classes within the .clips classes you just did ^^^ and they refer to the captions for your logos. */
+/* captions for logos */
 
 .clips caption {
     text-align:center;
@@ -175,4 +175,10 @@ footer{
     color: #000000;} 
 .resume a:hover {
     color: #77aacc;
+}
+
+/*  index */
+.homepage .odd {
+    float: right;
+    margin-left: 5px;
 }
