@@ -154,7 +154,10 @@ footer{
 
 
 /*HOBBIES PAGE */
-
+.costumes img { 
+    float: left; 
+    margin: 2px 10px 0 0;
+}
 .costumes img.odd {
     float: right; 
     margin: 2px 0 0 10px;
