@@ -154,12 +154,36 @@ footer{
 
 
 /*HOBBIES PAGE */
-.costumes img { 
+.costumes figure { 
     float: left; 
     margin: 2px 10px 0 0;
+    border: 1px solid black;
 }
-.costumes img.odd {
+.costumes .odd {
     float: right; 
     margin: 2px 0 0 10px;
+    border: 1px solid black;
 }
 
+/* Resume stuff */
+.resume h2 {
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.resume h4 {
+    margin-left: 12px;
+    
+}
+.resume p {
+    margin-left: 15px;
+}
+.resume ul {
+    margin-left: 50px;
+}
+.download link a:{
+    color: #000000;
+}
+hover {
+    color: #77aacc;
+}
+    
