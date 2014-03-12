@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin:0;
     padding:0; 
@@ -176,9 +176,3 @@ footer{
 .resume a:hover {
     color: #77aacc;
 }
-
-/* index pic */ 
- .homepage{
-        float: right;
-        border: 1px solid black;
-    }
