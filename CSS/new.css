@@ -4,12 +4,6 @@
     padding:0; 
 }
 
-/* this is the body yes */
-
-#wrapper {
-    min-height: 100%;
-    position: relative;
-}
 body {
     font-family: Constantia, serif;
     font-size: 16px;
@@ -35,9 +29,6 @@ header h1 {
     padding: 30px 10px 0px 30px;
     text-align: center;
 }
-
-
-/* header a:hover means the links in the nav will change colors when you hover over them */
 
 header a:hover { 
     color: #ffffff;
@@ -81,7 +72,7 @@ footer{
 
 }
 
-/* OKAY HERE'S YOUR CSS FOR YOUR TABLES KEEP TRACK OF THESE */
+/* CLIPS STUFF */ 
 
 .clips1 table, th, tr, td {
     text-align:center;
@@ -180,10 +171,14 @@ footer{
 .resume ul {
     margin-left: 50px;
 }
-.download link a:{
-    color: #000000;
-}
-hover {
+.resume a {
+    color: #000000;} 
+.resume a:hover {
     color: #77aacc;
 }
-    
+
+/* index pic */ 
+ .homepage{
+        float: right;
+        border: 1px solid black;
+    }
