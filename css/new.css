@@ -12,11 +12,10 @@ body {
 }
 
 header {
-    background-color: #77aacc;
-    color: #000000; 
-    height: 70px;
+    background-color: #660066;
+    color: #D8D8D8; 
+    height: 100px;
     margin: auto;
-
 }
 /* header h1 is the title in the bar at the top */
 
@@ -34,15 +33,17 @@ header a:hover {
     /* header nav is the links in the bar at the top */
  nav { 
     padding: 5px; 
-    background: #99ddee;
     width: auto; 
     height: 30px;
     text-align:center;
+    border: 1px solid black;
+    background: #D8D8D8;
 }
 
 nav a {
     text-decoration: none;
-    color: #000000;}
+    color: #000000;
+}
 
 article {
     font-size: 16px;
@@ -59,9 +60,7 @@ p {
 }
 footer{
     height: 60px;
-    background:#99ddee;
     color: #000000; 
-    border: 2px solid black;
     width: 100%;
     text-align: center;
     font-size: 13px;
@@ -138,7 +137,7 @@ footer{
 .contact a {
     color: #000000;} 
 .contact a:hover {
-    color: #77aacc;
+    color: #660066;
 }
 
 
@@ -156,7 +155,7 @@ footer{
 .costumes a {
     color: #000000;} 
 .costumes a:hover {
-    color: #77aacc;
+    color: #660066;
 }
 .costumes .odd figcaption {
     width: 250px;
@@ -187,7 +186,7 @@ footer{
 .resume a {
     color: #000000;} 
 .resume a:hover {
-    color: #77aacc;
+    color: #660066;
 }
 
 /*  index */
