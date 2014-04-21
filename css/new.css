@@ -172,10 +172,9 @@ footer{
 
 /* Resume stuff */
 .resume h2 {
-    margin: 10px;
     margin-bottom: 0px;
 }
-.resume h4 {
+.resume h3 {
     margin-left: 12px;
     
 }
@@ -202,4 +201,7 @@ footer{
     max-width: 100%;
     font-size: 12px;
     text-align: center;
+}
+.video {
+    text-align:center;
 }
