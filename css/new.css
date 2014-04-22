@@ -89,10 +89,12 @@ a:hover {
 .floatclip {
     margin-left:40px;
     float:left;
+   text-decoration: underline;
 }
 .clearer {
     clear: both;
 }
+
 /* CONTACT PAGE */ 
 
 .links figure {
