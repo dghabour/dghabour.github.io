@@ -104,11 +104,8 @@ a:hover {
 .clearer {
     clear: both;
 }
-.links .contact{
-    text-decoration: none;
-}
 
-/*HOBBIES PAGE */
+/*COSPLAY PAGE */
 
 .costumes figure { 
     float: left; 
@@ -124,12 +121,12 @@ a:hover {
 .costumes .odd figcaption {
     width: 250px;
     max-width: 100%;
-    font-size: 12px;    
+    font-size: 13px;    
 }
 .costumes figcaption {
     width: 475px;
     max-width: 100%;
-    font-size: 12px;
+    font-size: 13px;
     padding: 5px;
 }
 .costumes a {
