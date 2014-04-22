@@ -11,7 +11,7 @@ body {
     width: 928px;
     border: 5px solid black;  
     margin: 0 auto;
-    background-image:url(../img/metalcoat.jpg)
+    background-image:url(../img/metalcoat2000.jpg)
 }
 .wrap {
   background:white;  
@@ -23,7 +23,7 @@ header {
     margin: auto;}
 
  nav { 
-    padding: 5px; 
+    padding: 2px; 
     width: auto; 
     height: 30px;
     text-align:center;
@@ -176,10 +176,4 @@ a:hover {
 }
 .mailto a { 
     text-decoration: none;
-}
-#back.img metalcoat{
-    width:100%;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
