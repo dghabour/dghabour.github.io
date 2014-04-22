@@ -5,12 +5,17 @@
 
 body {
     font-family: Constantia, Palatino, serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     height: 100%;
     width: 928px;
     border: 5px solid black;  
-    margin: 0 auto;}
+    margin: 0 auto;
+    background-image:url(../img/metalcoat.jpg)
+}
+.wrap {
+  background:white;  
+}
 
 header {
     height: 165px;
@@ -60,8 +65,6 @@ footer{
     text-align: center;
     font-size: 13px;
 }
-    
-/* CLIPS STUFF */ 
 
 a{
     color: #000000;
@@ -75,8 +78,20 @@ a{
 a:hover {
     color:#660099;
 }
+
+/*CLIPS*/
+
 .cliplink img {
     border: 1px solid black;
+    margin-right:10px;
+    float:left;
+}
+.floatclip {
+    margin-left:40px;
+    float:left;
+}
+.clearer {
+    clear: both;
 }
 /* CONTACT PAGE */ 
 
@@ -159,5 +174,10 @@ a:hover {
 }
 .mailto a { 
     text-decoration: none;
-
+}
+#back.img metalcoat{
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
